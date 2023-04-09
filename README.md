@@ -16,7 +16,8 @@ You may also see any lint errors in the console.
 
 ### `npm run server`
 
-Launches the json-server
+Launches the json-server on port 3001. \
+Open db.json to view the stored data for the web.
 
 ### `npm run build`
 
