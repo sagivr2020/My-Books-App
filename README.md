@@ -1,4 +1,4 @@
-# Getting Started
+# My Books App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,6 +18,8 @@ You may also see any lint errors in the console.
 
 Launches the json-server on port 3001. \
 Open db.json to view the stored data for the web.
+
+## Available Scripts
 
 ### `npm run build`
 
