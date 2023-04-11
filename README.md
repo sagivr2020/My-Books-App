@@ -5,12 +5,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Running Locally
 
 Steps to run the project:
-First install all the app's packages, then run the scripts:
+
+### 1. `npm install`
 ```bash
 npm install
 ```
 
-### `npm start`
+Install all the app's packages
+
+### 2. `npm start`
 ```bash
 npm start
 ```
@@ -21,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run server`
+### 3. `npm run server`
 ```bash
 npm run server
 ```
