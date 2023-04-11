@@ -2,11 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Running Locally
 
-In the project directory, you can run:
+Steps to run the project:
+First install all the app's packages, then run the scripts:
+```bash
+npm install
 
 ### `npm start`
+```bash
+npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -15,6 +20,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm run server`
+```bash
+npm run server
 
 Launches the json-server on port 3001. \
 Open db.json to view the stored data for the web.
