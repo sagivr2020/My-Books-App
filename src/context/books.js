@@ -23,9 +23,10 @@ function Provider({ children }) {
     setBooks(updatedBooks);
   }
 
-  const editBookById = async (id, newTitle) => {
+  const editBookById = async (id, newTitle, newImage) => {
     const response = await axios.put(`http://localhost:3001/books/${id}`, {
-      title: newTitle
+      title: newTitle,
+      image: newImage,
     });
 
     const updatedBooks = books.map((book) => {
@@ -39,9 +40,10 @@ function Provider({ children }) {
     setBooks(updatedBooks)
   }
 
-  const createBook = async (title) => {
+  const createBook = async (title, image) => {
     const response = await axios.post('http://localhost:3001/books', {
-      title
+      title, 
+      image
     });
 
     const updatedBooks = [

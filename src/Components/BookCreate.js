@@ -3,16 +3,22 @@ import useBooksContext from '../hooks/use-books-context';
 
 function BookCreate() {
     const [title, setTitle] = useState('');
+    const [image, setImage] = useState('');
     const { createBook } = useBooksContext()
 
-    const handleChange = (event) => {
+    const handleTitleChange = (event) => {
         setTitle(event.target.value)
+    }
+
+    const handleImageChange = (event) => {
+        setImage(event.target.value)
     }
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        createBook(title);
+        createBook(title, image);
         setTitle('')
+        setImage('')
     }
 
     return (
@@ -20,7 +26,9 @@ function BookCreate() {
         <h3>Add a Book</h3>
         <form onSubmit={handleSubmit}>
             <label>Title</label>
-            <input className="input" value={title} onChange={handleChange}/>
+            <input className="input" value={title} onChange={handleTitleChange}/>
+            <label>Image URL</label>
+            <input className="input" value={image} onChange={handleImageChange}/>
             <button className="button">Create!</button>
         </form>
     </div>)
