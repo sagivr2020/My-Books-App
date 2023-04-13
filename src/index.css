@@ -10633,7 +10633,7 @@ a.has-text-danger-dark:hover {
 .book-create {
   background-color: #00d1b2;
   bottom: 0;
-  padding: 20px 40px 30px;
+  padding: 0px 40px 8px;
   position: fixed;
   width: 100%;
 }
@@ -10702,7 +10702,8 @@ a.has-text-danger-dark:hover {
 }
 .book-show img {
   margin-top: 10px;
-  width: 100%;
+  width: 300px;
+  height: 200px;
 }
 .book-show button {
   margin-right: 5px;
